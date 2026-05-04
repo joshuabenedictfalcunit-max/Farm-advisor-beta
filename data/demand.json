@@ -1,0 +1,10 @@
+[
+  { "commodity": "Tomato", "region": "Region I", "score": 88, "trend": "Rising", "description": "High demand for fresh tomatoes in local markets." },
+  { "commodity": "Rice", "region": "Region IV-A", "score": 92, "trend": "Stable", "description": "Consistent demand from retailers and consumers." },
+  { "commodity": "Pork", "region": "Region III", "score": 95, "trend": "Rising", "description": "Strong demand for pork due to holiday season orders." },
+  { "commodity": "Eggplant", "region": "Region VI", "score": 76, "trend": "Falling", "description": "Demand is softer but still steady in nearby cities." },
+  { "commodity": "Mango", "region": "Region XI", "score": 90, "trend": "Rising", "description": "Export demand is supporting mango prices." },
+  { "commodity": "Carabao Milk", "region": "CAR", "score": 81, "trend": "Stable", "description": "Local dairy cooperatives are buying regularly." },
+  { "commodity": "Chicken", "region": "Region V", "score": 85, "trend": "Rising", "description": "Retail and restaurant demand is increasing." },
+  { "commodity": "Sweet Potato", "region": "Region VIII", "score": 70, "trend": "Rising", "description": "Good demand for processed and fresh products." }
+]

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farm Demand Advisor Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Farm Demand Advisor</h1>
+      <p>See market demand trends and discover what to farm next using mock PSA/LGU/DA data.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls-card">
+      <h2>Market filters</h2>
+      <div class="filter-row">
+        <label>
+          Region
+          <select id="region-select"></select>
+        </label>
+        <label>
+          Commodity
+          <select id="commodity-select"></select>
+        </label>
+      </div>
+      <div class="summary-cards">
+        <div class="summary-card">
+          <strong id="top-commodity">-</strong>
+          <span>Top recommended commodity</span>
+        </div>
+        <div class="summary-card">
+          <strong id="best-region">-</strong>
+          <span>Highest demand region</span>
+        </div>
+        <div class="summary-card">
+          <strong id="demand-trend">-</strong>
+          <span>Demand trend</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="data-card">
+      <h2>Market demand snapshot</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Commodity</th>
+              <th>Region</th>
+              <th>Demand score</th>
+              <th>Price trend</th>
+            </tr>
+          </thead>
+          <tbody id="demand-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="chart-card">
+      <div class="chart-header">
+        <div>
+          <h2>Price movement</h2>
+          <p>View mock price history for the selected commodity using a candlestick chart.</p>
+        </div>
+        <div class="chart-meta">
+          <span id="chart-label">Loading...</span>
+        </div>
+      </div>
+      <div id="candlestick-chart" class="chart"></div>
+    </section>
+
+    <section class="recommend-card">
+      <h2>What to farm</h2>
+      <p>Based on the current market demand sample data, these products are strong candidates for planting or raising.</p>
+      <div id="recommendations" class="recommendations"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
