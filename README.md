@@ -1,6 +1,5 @@
 # Farm Demand Advisor Prototype
 
-A simple static website prototype to help farmers choose what to farm based on mock market demand data.
 
 ## Files
 
