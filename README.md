@@ -1,4 +1,3 @@
-# Farm Demand Advisor Prototype
 
 A simple static website to help farmers choose what to farm based on market demand data.
 
