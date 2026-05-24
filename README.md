@@ -3,7 +3,6 @@
 
 ## Files
 
-- `index.html` — main prototype page
 - `styles.css` — page styles
 - `script.js` — mock data and interactive filtering/recommendation logic
 
